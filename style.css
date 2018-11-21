@@ -1,0 +1,72 @@
+  header,
+    main,
+    footer {
+    /*padding-left: 240px;*/
+    }
+
+    body {
+    backgroud: white;
+    }
+
+    @media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+    padding-left: 0;
+    }
+    }
+
+    #credits li,
+    #credits li a {
+    color: white;
+    }
+
+    #credits li a {
+    font-weight: bold;
+    }
+
+    .footer-copyright .container,
+    .footer-copyright .container a {
+    color: #BCC2E2;
+    }
+
+    .fab-tip {
+    position: fixed;
+    right: 85px;
+    padding: 0px 0.5rem;
+    text-align: right;
+    background-color: #323232;
+    border-radius: 2px;
+    color: #FFF;
+    width: auto;
+    }
+
+    .sidenav li>a>i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 60px;
+    margin: 0 10px 0 0;
+    width: 24px;
+    }
+
+
+
+    .post-meta{
+    display: inline-block;
+    margin-right: 15px;
+    }
+
+    .post-meta i.left{
+    margin-right: 5px;
+    }
+
+    #main-content{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    .post-footer {
+    display: none;
+    }
